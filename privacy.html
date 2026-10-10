@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Scout Playbook</title>
+<meta name="robots" content="noindex">
+<style>
+  :root { color-scheme: light; }
+  body { margin: 0; font: 16px/1.55 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; color: #1f2937; background: #f8fafc; }
+  header { background: #0056b9; color: #fff; padding: 14px 20px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+  header .brand { font-weight: 700; letter-spacing: .04em; text-transform: uppercase; font-size: 13px; color: #ffd166; }
+  header nav a { color: #fff; opacity: .9; margin-right: 16px; font-size: 14px; }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 20px 60px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  .meta { color: #64748b; font-size: 14px; margin-bottom: 20px; }
+  h2 { font-size: 18px; margin: 28px 0 8px; color: #0b3d7a; }
+  p, li { max-width: 70ch; }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  a { color: #0056b9; }
+  footer { max-width: 760px; margin: 0 auto; padding: 0 20px 40px; color: #94a3b8; font-size: 13px; }
+</style>
+</head>
+<body>
+<header>
+  <span class="brand">Scout Playbook</span>
+  <nav><a href="https://jbeukelman52.github.io/Scout-playbook/">Back to the app</a><a href="terms.html">Terms of Use</a></nav>
+</header>
+<main>
+  <h1>Privacy Policy</h1>
+  <div class="meta">Effective October 3, 2026 · version 2</div>
+  <p>Scout Playbook is a private, invite-only tool a coaching staff uses to plan for its opponents. This policy says plainly what the tool collects, where it goes, and what you can do about it. It applies to the website at <a href="https://jbeukelman52.github.io/Scout-playbook/" rel="noopener">https://jbeukelman52.github.io/Scout-playbook/</a> and to the desktop app.</p>
+  
+      <section>
+        <h2>Who runs this</h2>
+        <p>Scout Playbook is run by the head coach of the RC Knights football program (&quot;we&quot;). Questions, requests, and complaints about this policy go to RCKNIGHTSDC@gmail.com.</p>
+        
+        
+      </section>
+
+      <section>
+        <h2>What this tool is for</h2>
+        <p>The tool is for the coaches of the RC Knights football program who have been invited by the head coach. There is no public sign-up.</p>
+<p>It is a shared workspace. Everything added to it — opponents, imported film data, formations, plays, drawings, playbooks, call sheets, and chat messages — is visible to, and editable by, every coach on the staff who has an account. Do not put anything in it you would not want the rest of the staff to see.</p>
+        
+        
+      </section>
+
+      <section>
+        <h2>What we collect</h2>
+        <p>We collect only what the tool needs to work:</p>
+        <ul><li>Your account: the email address your head coach invited, and the password you choose (stored only as a hash by our login provider). The tool shows your email in the sidebar so you can tell which account you are using.</li>
+<li>Edit stamps: every item you save is marked with your account's internal id and the time, so the staff can see what changed and the tool can keep devices in sync.</li>
+<li>Chat messages: anything you type in the staff chat is stored with the first part of your email address (the part before the @) as your name.</li>
+<li>Scouting content you add: opponent names and seasons, game data from film exports (down, distance, hash, formation, play, result, gain and similar columns), the names of files you import, notes, links to game plans, formations, plays, drawings, playbooks, and call sheets.</li>
+<li>Technical records: our hosting and database providers keep standard server logs, which include the internet address (IP) of the device that connected and the time.</li></ul>
+        
+      </section>
+
+      <section>
+        <h2>What we do not collect</h2>
+        
+        <ul><li>No cookies. The website sets none.</li>
+<li>No analytics, advertising, tracking pixels, or social-media plug-ins.</li>
+<li>No location data, contacts, camera, or microphone.</li>
+<li>No player names, rosters, or personnel from film imports: the import only reads play-by-play game columns. Any label you type on a drawing is your own text and should not be a student's personal information.</li>
+<li>No payment information. The tool is free for the staff.</li></ul>
+        
+      </section>
+
+      <section>
+        <h2>Storage on your device</h2>
+        <p>The website keeps a small amount of data in your browser's local storage so you stay signed in and your settings are remembered. This is &quot;strictly necessary&quot; storage, not tracking, and no consent banner is required for it. The entries are:</p>
+        <ul><li>scout-playbook-auth — your sign-in session (access and refresh tokens, your account id and email). Removed when you sign out.</li>
+<li>scout-active-opponent, scout-active-season, scout-active-team — which opponent, season, and team (varsity or JV) you were last looking at.</li>
+<li>scout-chat-open and scout-chat-pos — whether the chat window is open and where you put it.</li>
+<li>tendency-preset-… and tendency-minsample-… — your settings on the Tendencies tab, one entry per opponent.</li>
+<li>plays-checked-… — which plays you ticked on the All Plays table, one entry per opponent.</li>
+<li>scout-notice-ack — that you dismissed the storage notice.</li>
+<li>scout-playbook-v2 — only when the tool is run without the shared database (local/testing mode); it then holds all data locally.</li></ul>
+        <p>You can clear all of this at any time from your browser's site-data settings, or with &quot;Sign out&quot; (session) and &quot;Delete my account&quot; (everything).</p>
+<p>The desktop app keeps a local copy of its data in a file named scout.db in its application-data folder, plus up to ten dated backup copies made each time it starts. Those files are on your computer only; uninstalling the app or deleting that folder removes them.</p>
+      </section>
+
+      <section>
+        <h2>Services we rely on</h2>
+        <p>The tool is built on a small number of providers that process data on our behalf:</p>
+        <ul><li>Supabase — provides the sign-in service and the shared database, and pushes live updates between coaches. Your email, password hash, account id, and everything the staff adds to the tool are stored with Supabase in the United States. Supabase's own privacy policy is at <a href="https://supabase.com/privacy" rel="noopener">https://supabase.com/privacy</a>.</li>
+<li>GitHub Pages — hosts the website files. Like any web host, GitHub records standard server logs when your browser loads the site. GitHub's privacy statement is at <a href="https://docs.github.com/site-policy/privacy-policies" rel="noopener">https://docs.github.com/site-policy/privacy-policies</a>.</li>
+<li>GitHub Releases — the desktop app checks GitHub once when it starts to see whether a newer version exists. That check sends your computer's IP address to GitHub, nothing else.</li>
+<li>Links you add — game-plan links open in your browser and are governed by the privacy policy of whatever site they point to (for example Google Docs).</li></ul>
+        <p>We do not sell personal information and we do not share it with anyone else for advertising or marketing. We would disclose it only if the law required it or to protect the staff, the program, or the service from abuse.</p>
+      </section>
+
+      <section>
+        <h2>How long we keep it</h2>
+        
+        <ul><li>Your account and email stay until you delete your account or the head coach removes you.</li>
+<li>Scouting content belongs to the shared staff workspace and stays until a coach deletes it. Deleted items go to a Trash where they can be restored until the Trash is emptied.</li>
+<li>Chat messages stay until a coach deletes them or the staff clears the chat; the tool shows the most recent three hundred.</li>
+<li>After you delete your account, items you saved stay in the workspace (they are the staff's work product) but your account id is removed from their edit stamps and your chat messages are shown as from &quot;former coach&quot;.</li>
+<li>Backups a coach downloads, and the desktop app's local files, are under that coach's control and are not managed by us.</li></ul>
+        
+      </section>
+
+      <section>
+        <h2>Your choices</h2>
+        
+        <ul><li>Download my data (sidebar) — saves a file with your account details, your chat messages, the list of items you last edited, and your device settings.</li>
+<li>Delete my account (sidebar) — removes your login immediately and scrubs your identity from the workspace as described above. This cannot be undone; ask the head coach for a new invite if you need access again.</li>
+<li>Sign out — ends the session on that device and removes the saved session from local storage.</li>
+<li>Clear your browser's site data — removes every local-storage entry listed above.</li>
+<li>Email RCKNIGHTSDC@gmail.com for anything you cannot do yourself, including a copy, a correction, or deletion of your information. We answer within 30 days.</li></ul>
+        
+      </section>
+
+      <section>
+        <h2>Security</h2>
+        <p>The site is served over HTTPS. Accounts are invite-only, sign-ups are disabled, and the database only answers to signed-in coaches (row-level security). Passwords are never stored in readable form. No system is perfectly secure, so use a password you do not use anywhere else and tell the head coach right away if you think your account was used by someone else.</p>
+        
+        
+      </section>
+
+      <section>
+        <h2>Children and students</h2>
+        <p>The tool is for adult coaches. It is not directed to children under 13 and we do not knowingly collect personal information from anyone under 13; if you believe a child has provided information, contact us and we will delete it.</p>
+<p>The tool is not a student information system. Opponent scouting is built from publicly observable game data. Coaches must not upload student personal information (names tied to grades, health, discipline, contact details, and the like) into the tool.</p>
+        
+        
+      </section>
+
+      <section>
+        <h2>Your rights</h2>
+        <p>Wherever you live, you can ask us what personal information we hold about you, ask us to correct it, or ask us to delete it, and we will not treat you differently for asking. Residents of California and other states with privacy laws have these rights by statute; we extend them to every coach. We do not sell or share personal information for advertising, so there is nothing to opt out of. To exercise a right, use the controls in the sidebar or email RCKNIGHTSDC@gmail.com.</p>
+        
+        
+      </section>
+
+      <section>
+        <h2>Changes to this policy</h2>
+        <p>If we change what the tool collects or how it is used, we will update this policy, change the date at the top, and the tool will show the storage notice again so you see that something changed. Continuing to use the tool after a change means you accept the updated policy.</p>
+        
+        
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <p>the head coach of the RC Knights football program: RCKNIGHTSDC@gmail.com. Effective October 3, 2026.</p>
+        
+        
+      </section>
+</main>
+<footer>Scout Playbook · Privacy Policy · Contact: RCKNIGHTSDC@gmail.com</footer>
+</body>
+</html>
