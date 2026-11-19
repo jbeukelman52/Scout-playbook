@@ -1,0 +1,18 @@
+{
+  "name": "RC Knights Scout Playbook",
+  "short_name": "Scout Playbook",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#0056b9",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "447x447",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
